@@ -1,6 +1,6 @@
 {
-    "name": "artisansdk/skeleton",
-    "description": "The starting skeleton for an Artisan SDK package.",
+    "name": "artisansdk/machine",
+    "description": "The machine learning algorithms of the Artisan SDK packages.",
     "type": "library",
     "license": "MIT",
     "authors": [
@@ -16,6 +16,7 @@
     },
     "require": {
         "php": ">=7.0",
+        "artisansdk/contract": "dev-master"
     },
     "require-dev": {
         "phpunit/phpunit": "~7.2",
@@ -27,12 +28,12 @@
     },
     "autoload": {
         "psr-4": {
-            "ArtisanSdk\\Skeleton\\": "src/"
+            "ArtisanSdk\\Machine\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "ArtisanSdk\\Skeleton\\Tests\\": "tests/"
+            "ArtisanSdk\\Machine\\Tests\\": "tests/"
         }
     },
     "scripts": {
