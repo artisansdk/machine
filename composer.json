@@ -1,6 +1,6 @@
 {
     "name": "artisansdk/machine",
-    "description": "The machine learning algorithms of the Artisan SDK packages.",
+    "description": "A collection of machine learning algorithms to predict and classify.",
     "type": "library",
     "license": "MIT",
     "authors": [

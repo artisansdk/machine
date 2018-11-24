@@ -1,6 +1,6 @@
 # Machine Learning
 
-The machine learning algorithms of the Artisan SDK packages.
+A collection of machine learning algorithms to predict and classify.
 
 ## Table of Contents
 
